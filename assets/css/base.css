@@ -1,0 +1,20 @@
+html, body {
+    font-family: 'Roboto Condensed', sans-serif!important;
+}
+ul {
+    list-style: none !important;
+}
+li {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

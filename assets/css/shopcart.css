@@ -1,0 +1,74 @@
+.middle-cart {
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    margin: 50px 220px 0px 220px;
+    align-items: center;
+}
+.height {
+    height: 500px;
+}
+.shopcart-img-position {
+    margin-top: 95px;
+}
+
+.shopCart {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #5f5959;
+    border-color: #000000 transparent #000000 transparent;
+    justify-content: center;
+    margin-top: 15px;
+}
+.change-size-cart {
+    height: 65px;
+    width: 65px;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.name-cart {
+    margin-right: 15%;
+    margin-top: 35px;
+}
+.button-cart {
+    margin-top: 38px;
+}
+.check-box {
+    margin-left: 60px;
+}
+.price {
+    padding: 0 20px;
+    margin-top: 45px;
+}
+.btn-secondary {
+    left: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+.btn-secondary > a {
+    color: #fff;
+}
+
+/* modal */
+
+.modal-input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #5f5959;
+}
+#submit-db {
+    margin-top: 33px;
+    left: 30px;
+    position: absolute;
+    left: 45rem;
+    top: 10rem;
+}
+
+.form-info {
+    position: relative;
+
+}

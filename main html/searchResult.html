@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellphones</title>
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/Font/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/page.css">
+</head>
+
+<body>
+  <div class="web-phone"> 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./Shop.html">Sellphone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown navbar-li-margin">
+              <a class="nav-link dropdown-toggle" href="./Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Danh mục
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Allphone.html">Điện thoại</a></li>
+                <li><a class="dropdown-item" href="./phukien.html">Phụ kiện</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown navbar-li-margin">
+              <a class="nav-link dropdown-toggle" href="./Shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Địa chỉ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.google.com/maps/place/CellphoneS+-+H%E1%BB%87+th%E1%BB%91ng+b%C3%A1n+l%E1%BA%BB+di+%C4%91%E1%BB%99ng+to%C3%A0n+qu%E1%BB%91c/@20.9839644,105.8437773,17z/data=!3m1!4b1!4m6!3m5!1s0x3135adafe8193415:0x630b95b17b2af592!8m2!3d20.9839644!4d105.845966!16s%2Fg%2F11h2q0bchs">Hà Nội</a></li>
+                <li><a class="dropdown-item" href="https://www.google.com/maps/place/Si%C3%AAu+th%E1%BB%8B+%C4%91i%E1%BB%87n+tho%E1%BA%A1i+Th%E1%BA%BF+Gi%E1%BB%9Bi+Di+%C4%90%E1%BB%99ng/@10.7741632,106.6076126,13z/data=!4m10!1m2!2m1!1zdGjhur8gZ2nhu5tpIGRpIMSR4buZbmc!3m6!1s0x31752f20ca82667b:0x38c771523c657145!8m2!3d10.7741632!4d106.6776504!15sChd0aOG6vyBnaeG7m2kgZGkgxJHhu5luZyIDiAEBWhkiF3Ro4bq_IGdp4bubaSBkaSDEkeG7mW5nkgEQY2VsbF9waG9uZV9zdG9yZeABAA!16s%2Fg%2F1q5hrfhpn">TP Hồ Chí Minh</a></li>
+              </ul>
+            </li>
+          <!-- Search button -->
+            <li class="nav-item navbar-li-margin">
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input id="search" class="form-control me-2" type="text" placeholder="Nhập tên sản phẩm bạn cần tìm" aria-label="Search">
+                    <input onclick="searchByName()"class="btn btn-outline-success" type="submit" value="search" ></input>
+                  </form>
+                </div>
+              </nav>
+            </li>
+            <li class="nav-item navbar-li-margin">
+              <a onclick="waiting()" class="nav-link" >Lịch sử đơn hàng</a>
+            </li>
+            <li class="nav-item navbar-li-margin">
+              <a class="nav-link" href="./shopcart.html">Giỏ hàng</a>
+            </li>
+            <li class="nav-item navbar-li-margin">
+              <div class="nav-link lien-he" href="./Shop.html">
+                Liên hệ
+                <div class="QRcode">
+                  <img src="../assets/image/Picture/QRcode.jpg" alt="QRcode" class="img-qr">
+                  <p>Quét QR để gọi cho chúng tôi 19001006</p>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item navbar-li-margin">
+              <a class="nav-link" href="./login.html">Đăng nhập</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+    <!-- Content -->
+    <!-- Brand -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div>
+              <a href="./Apple.html" class="">
+                <img src="/assets/image/Logo/apple.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./samsung.html" class="">
+                <img src="/assets/image/Logo/samsung.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./xiaomi.html" class="">
+                <img src="/assets/image/Logo/xiaomi.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./nokia.html" class="">
+                <img src="/assets/image/Logo/nokia.jpg" alt="" class="change-size-logo" >
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./oppo.html" class="">
+                <img src="/assets/image/Logo/oppo.jpg" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./vsmart.html" class="">
+                <img src="/assets/image/Logo/vsmart.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./huawei.html" class="">
+                <img src="/assets/image/Logo/huawei.jpg" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./oneplus.html" class="">
+                <img src="/assets/image/Logo/oneplus.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./asus.html" class="">
+                <img src="/assets/image/Logo/asus.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <a href="./vivo.html" class="">
+                <img src="/assets/image/Logo/vivo.png" alt="" class="change-size-logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="page-title">Đã tìm thấy kết quả</div>
+        <div class="row">
+          <div class="col here">
+            
+          </div>
+          <div class="col">
+            
+          </div>
+          <div class="col">
+            
+          </div>
+          <div class="col">
+            
+          </div>
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>
+<script src="../searchResult.js"></script>
+<script src="../search.js"></script>
+<script src="../shop_cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
